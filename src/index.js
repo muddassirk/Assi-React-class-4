@@ -12,7 +12,7 @@ function Room() {
    }
 
   return (
-    <div className={(value===true)? "Dark" : "Bright"}>
+    <div className={(value===true)? "Bright " : "Dark"}>
       <div >
         The Color is {(value === true)? "Bright" : "Dark"}</div>
       <button onClick={cllick}>Change Color</button>
